@@ -1,3 +1,7 @@
+# Introduction
+Performs a hourly scan and scan on boot for any conflict files in a single syncthing shared directory.
+Sends a desktop push notification when a conflict has been found.
+
 ## Manual installation instructions
 Place the timer and service units in `~/.config/systemd/user/` and create that directory if needed\
 Edit script and provide root directory of the syncthing folder that needs to be tracked\
