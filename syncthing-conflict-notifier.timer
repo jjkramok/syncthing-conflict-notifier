@@ -1,0 +1,9 @@
+[Unit]
+Description=tests syncthing folders for conflicts and reports any found
+
+[Timer]
+OnUnitActiveSec=1h
+OnBootSec=10s
+
+[Install]
+WantedBy=timers.target
